@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+   display: flex;
+   justify-content: center;
+}
+
+.h1-container {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+
+/* COLORS */
+
+.colors-container { 
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.colors-container div {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+
+}
+
+#blue {
+    background-color: blue;
+}
+
+/* RESTART BUTTON */
+.restart-button-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#restart-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: aliceblue;
+    font-weight: bold;
+    color: salmon;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#restart-button:hover {
+    background-color: lightgray;
+}
+
+.grid-container {
+    width: 580px;
+    margin: auto;
+    padding: 30px;
+}
+
+.grid {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0;
+    display: inline-block;
+}
